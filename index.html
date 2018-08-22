@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Time</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <script src = "main.js"></script>
+</head>
+<body style = 'background-image: url("img/sky.jpeg")'>
+  <center>
+
+      <h1 style="font-size: 80px" id = "time"></h1>
+      <h1 style="font-size: 40px" id = "date"></h1>
+      <hr width = "700px" size = "5px" >
+      
+      <p>Kiev, Ukraine</p>
+
+      <form style = "padding-bottom: '10%'">
+          <input type="button" class= "button" value="Home" onclick="window.location.href='https://www.google.com.ua'" />
+      </form>
+
+  </center>
+
+
+  
+  <script>
+    
+    var timeId = setInterval(Update, 100);
+
+  
+  </script>
+</body>
+</html>
